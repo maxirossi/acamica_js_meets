@@ -4,7 +4,6 @@ export const title = 'Conversor';
 
 function celciusAFahrenheit(grados)
 {
-    debugger;
     grados = sumarGrados(grados);
     let conversion = (grados * 1.8) + (32);
     return conversion;
